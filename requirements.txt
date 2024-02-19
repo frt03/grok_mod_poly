@@ -1,0 +1,12 @@
+torch==2.1.0
+torcheval==0.0.7
+scipy==1.11.4
+einops==0.7.0
+scikit-learn==1.3.0
+blobfile
+mod
+matplotlib
+pandas
+plotly
+seaborn
+wandb
