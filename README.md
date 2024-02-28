@@ -1,4 +1,5 @@
 # Interpreting Grokked Transformers in Complex Modular Arithmetic
+[[arxiv](https://arxiv.org/abs/2402.16726)]
 
 ## Config
 Example:
@@ -73,3 +74,13 @@ You can check the experimental results from wandb.
 - https://github.com/neelnanda-io/Grokking
 - https://github.com/kindxiaoming/omnigrok
 - https://github.com/openai/grok
+
+## Citation
+```
+@article{furuta2024interpreting,
+    title={Interpreting Grokked Transformers in Complex Modular Arithmetic},
+    author={Hiroki Furuta and Gouki Minegishi and Yusuke Iwasawa and Yutaka Matsuo},
+    year={2024},
+    journal = {arXiv preprint arXiv:2402.16726}
+}
+```
