@@ -97,7 +97,7 @@ def main(config):
         betas=(0.9, 0.98),
     )
     run_name = f'{config.exp_name}'
-    train, test = ssl_dataset.gen_train_test(
+    train, test = dataset.gen_train_test(
         config.frac_train,
         config.d_vocab,
         seed=config.seed,
@@ -107,8 +107,8 @@ def main(config):
         n=config.multivariate,
     )
     fn_names = config.fn_name.split(',')
-    dataset_fns = {fn_name: ssl_dataset.MODULAR_ARITHMETIC_DATASET_CONFIG[fn_name] for fn_name in fn_names}
-    # dataset_fn = ssl_dataset.MODULAR_ARITHMETIC_DATASET_CONFIG[config.fn_name]
+    dataset_fns = {fn_name: dataset.MODULAR_ARITHMETIC_DATASET_CONFIG[fn_name] for fn_name in fn_names}
+    # dataset_fn = dataset.MODULAR_ARITHMETIC_DATASET_CONFIG[config.fn_name]
 
     if config.save_models:
         os.makedirs(
