@@ -1,5 +1,6 @@
-# Interpreting Grokked Transformers in Complex Modular Arithmetic
-[[arxiv](https://arxiv.org/abs/2402.16726)]
+# Towards Empirical Interpretation of Internal Circuits and Properties in Grokked Transformers on Modular Polynomials
+
+Published in **Transactions on Machine Learning Research (TMLR)** [[arxiv](https://arxiv.org/abs/2402.16726)] [[OpenReview](https://openreview.net/forum?id=MzSf70uXJO)]
 
 ## Config
 Example:
@@ -78,7 +79,7 @@ You can check the experimental results from wandb.
 ## Citation
 ```
 @article{furuta2024interpreting,
-    title={Interpreting Grokked Transformers in Complex Modular Arithmetic},
+    title={Towards Empirical Interpretation of Internal Circuits and Properties in Grokked Transformers on Modular Polynomials},
     author={Hiroki Furuta and Gouki Minegishi and Yusuke Iwasawa and Yutaka Matsuo},
     year={2024},
     journal = {arXiv preprint arXiv:2402.16726}
